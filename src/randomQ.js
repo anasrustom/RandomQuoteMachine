@@ -32,7 +32,7 @@ class RandomQ extends React.Component {
             <body style={{backgroundColor: color, transition: '0.75s ease-in-out', overflow: 'hidden', height: '100vh'}}>
                 <div id="quote-box">
                     <div class="quote-text">
-                    <FontAwesomeIcon style={{color: color, transition: '0.75s ease-in-out'}} icon={faQuoteLeft} /><span id="text" style={{color: color, transition: '0.5s ease-in-out'}}> {quote}</span>
+                    <FontAwesomeIcon style={{color: color, transition: '0.75s ease-in-out'}} icon={faQuoteLeft} /><span id="text" style={{color: color, transition: '0.75s ease-in-out'}}> {quote}</span>
                     </div>
                     <div class="quote-author">
                     <span id="author" style={{color: color, transition: '0.75s ease-in-out'}}>- {quotes[this.state.qrandom][1]}</span>
